@@ -9,8 +9,8 @@
     "node": ">=20"
   },
   "scripts": {
-    "dev": "node --watch server.js",
-    "start": "node server.js",
+    "dev": "node init && node --watch server.js",
+    "start": "node init && node server.js",
     "seed": "node src/seed/seed.js",
     "seed:fresh": "node src/seed/seed.js --fresh",
     "check": "node scripts/check.mjs"
